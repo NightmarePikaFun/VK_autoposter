@@ -37,6 +37,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.OutsetDouble;
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -57,9 +58,9 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.linkLabel1.Location = new System.Drawing.Point(163, 0);
+            this.linkLabel1.Location = new System.Drawing.Point(169, 3);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(166, 35);
+            this.linkLabel1.Size = new System.Drawing.Size(161, 29);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "linkLabel1";
@@ -69,9 +70,9 @@
             // 
             this.SendText.AutoSize = true;
             this.SendText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SendText.Location = new System.Drawing.Point(335, 0);
+            this.SendText.Location = new System.Drawing.Point(339, 3);
             this.SendText.Name = "SendText";
-            this.SendText.Size = new System.Drawing.Size(166, 35);
+            this.SendText.Size = new System.Drawing.Size(161, 29);
             this.SendText.TabIndex = 2;
             this.SendText.Text = "label1";
             this.SendText.Click += new System.EventHandler(this.SendText_Click);
@@ -81,9 +82,9 @@
             this.groupNameLabel.AutoEllipsis = true;
             this.groupNameLabel.AutoSize = true;
             this.groupNameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupNameLabel.Location = new System.Drawing.Point(3, 0);
+            this.groupNameLabel.Location = new System.Drawing.Point(6, 3);
             this.groupNameLabel.Name = "groupNameLabel";
-            this.groupNameLabel.Size = new System.Drawing.Size(154, 35);
+            this.groupNameLabel.Size = new System.Drawing.Size(154, 29);
             this.groupNameLabel.TabIndex = 3;
             this.groupNameLabel.Text = "label1";
             // 

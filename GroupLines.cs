@@ -12,6 +12,10 @@ namespace VK_autoposter
 {
     public partial class GroupLines : UserControl
     {
+        public string GroupName;
+        public string GroupLink;
+        public string GroupText;
+
         public GroupLines()
         {
             InitializeComponent();
@@ -26,9 +30,12 @@ namespace VK_autoposter
 
         public void Initialize(string[] values)
         {
-            groupNameLabel.Text = values[0];
-            linkLabel1.Text = values[1];
-            SendText.Text = values[2];
+            GroupName = values[0];
+            GroupLink = values[1];
+            GroupText = values[2];
+            groupNameLabel.Text = GroupName;
+            linkLabel1.Text = GroupLink;
+            SendText.Text = GroupText;
         }
     }
 }
